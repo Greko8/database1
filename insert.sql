@@ -15,6 +15,9 @@ VALUES(1, 2), (2, 4), (3, 3), (5, 1), (6, 5), (7, 6), (4, 7);
 INSERT INTO track (name, duration, album_id) 
 VALUES('Zwitter', '257', 3), ('Ich Will', '217', 3), ('We are the greatest', '194', 2), ('Летчик', '351', 1), ('Лайки', '211', 1), ('My name is', '268', 4), ('Rock Bottom', '214', 4), ('Ну где же вы, девчонки', '277', 5), ('Remission Possible', '98', 6), ('Мое поколение', '240', 7);
 
+INSERT INTO track (name, duration, album_id) 
+VALUES('myself', '257', 3), ('my own', '217', 3), ('myself', '257', 3), ('my', '207', 3), ('oh my god', '357', 3), ('bemy self', '217', 1), ('go my', '257', 1), ('myself by', '217', 2), ('by myself by', '257', 3), ('beemy', '217', 3), ('premyne', '217', 3);
+
 INSERT INTO genre_singer (genre_id, singer_id)
 VALUES(2,1), (1, 2), (3, 3), (3, 4), (3, 5), (4, 6), (3,7), (4,1), (4, 2), (4, 5), (2, 6);
 
